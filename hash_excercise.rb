@@ -100,3 +100,21 @@ users["Erik"][:pets].push({ name: "Fluffy", species: "dog"})
 p users["Erik"][:pets]
 
 #10. Add another person to the users hash
+
+users["Link"] = {
+  twitter: "linkatchu",
+  lottery_numbers: [19, 12, 1, 42, 27, 38],
+  home_town: "Kokiri Forest",
+  pets: [
+    {
+      name: "Epona",
+      species: "horse"
+    },
+    {
+      name: "Navi",
+      species: "Fairy"
+    }
+  ]
+}
+
+p users["Link"]
