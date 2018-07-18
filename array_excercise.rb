@@ -13,6 +13,9 @@ stops.unshift("Glasgow Queen St")
 stops.insert(4, "Polmont")
 
 # 4. Work out the index position of "Linlithgow"
+
+p "Linlithgow is index number #{stops.index("Linlithgow")}"
+
 # 5. Remove "Livingston" from the array using its name
 # 6. Delete "Cumbernauld" from the array by index
 # 7. How many stops there are in the array?
