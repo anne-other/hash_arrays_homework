@@ -32,3 +32,11 @@ for countries in united_kingdom
 end
 
 # Use a loop to find the total population of the UK.
+
+population_total = 0
+
+for countries in united_kingdom
+  population_total += countries[:population]
+end
+
+p population_total
