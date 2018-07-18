@@ -43,6 +43,9 @@ p station
 
 
 # 9. Reverse the positions of the stops in the array
+
+stops = stops.reverse
+
 # 10. Print out all the stops using a for loop
 
 
