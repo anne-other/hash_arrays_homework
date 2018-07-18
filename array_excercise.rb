@@ -21,6 +21,9 @@ p "Linlithgow is index number #{stops.index("Linlithgow")}"
 stops.delete("Livingston")
 
 # 6. Delete "Cumbernauld" from the array by index
+
+stops.delete_at(stops.index("Cumbernauld"))
+
 # 7. How many stops there are in the array?
 # 8. How many ways can we return "Falkirk High" from the array?
 # 9. Reverse the positions of the stops in the array
