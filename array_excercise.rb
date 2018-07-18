@@ -29,6 +29,19 @@ stops.delete_at(stops.index("Cumbernauld"))
 p "There are #{stops.length} stops"
 
 # 8. How many ways can we return "Falkirk High" from the array?
+
+p stops[stops.index("Falkirk High")]
+p stops[2]
+
+
+for stop in stops
+  if stop == "Falkirk High"
+    station = stop
+  end
+end
+p station
+
+
 # 9. Reverse the positions of the stops in the array
 # 10. Print out all the stops using a for loop
 
