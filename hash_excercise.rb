@@ -77,6 +77,13 @@ p (users["Erik"][:lottery_numbers]).sort.shift
 
 #6. Return an array of Avril's lottery numbers that are even
 
+even_numbers = []
+
+for num in users["Avril"][:lottery_numbers]
+  even_numbers.push(num) if num % 2 == 0
+end
+
+p even_numbers
 
 #7. Erik is one lottery number short! Add the number 7 to be included in his lottery numbers
 #8. Change Erik's hometown to Edinburgh
