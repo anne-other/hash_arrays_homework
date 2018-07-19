@@ -25,6 +25,12 @@ p united_kingdom[1][:capital] = "Cardiff"
 united_kingdom.push({name: "Northern Ireland", population: 1811000, capital: "Belfast"})
 p united_kingdom[3]
 
+#northern_ireland = {
+# name: "Northern Ireland"
+#...
+# }
+#united_kingdom.push(northern_ireland)
+
 # Use a loop to print the names of all the countries in the UK.
 
 for countries in united_kingdom
